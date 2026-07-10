@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "gctbwp/wsgi.py",
+      "src": "gctbwp/gctbwp/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "gctbwp/wsgi.py"
+      "dest": "gctbwpgctbwp/wsgi.py"
     }
   ]
 }
