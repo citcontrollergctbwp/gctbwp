@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "gctbwpgctbwp/wsgi.py"
+      "dest": "gctbwp/gctbwp/wsgi.py"
     }
   ]
 }
